@@ -39,7 +39,7 @@ all client/company-specific detail removed.
 | # | Agent | Purpose |
 |---|---|---|
 | 1 | [App Code Scan Agent](./app-code-scan-agent.md) | Scans a legacy codebase and produces a Business Requirement Document, flow diagrams, API inventory, and integration/data dependency map — the foundation for everything downstream |
-| 2 | [Test Authoring Agents](./test-authoring-agents/README.md) | Consume the App Code Scan Agent's output to generate manual and automated test cases. Includes the [API Automation Agent](./test-authoring-agents/api-automation-agent.md) (available); UI Automation, Database Testing, and Manual Test Case agents *(coming soon)* |
+| 2 | [Test Authoring Agents](./test-authoring-agents/README.md) | Consume the App Code Scan Agent's output to generate manual and automated test cases. Includes the [API Automation Agent](./test-authoring-agents/api-automation-agent.md) and [UI Automation Agent](./test-authoring-agents/ui-automation-agent.md) (available); Database Testing and Manual Test Case agents *(coming soon)* |
 | 3 | Self-Healing Automation Agent | *(coming soon)* Detects and repairs broken automation locators/steps after UI or code changes |
 | 4 | Defect & Incident Prediction Agent | *(coming soon)* Analyzes historical defects/incidents to predict impact areas for new feature changes |
 
