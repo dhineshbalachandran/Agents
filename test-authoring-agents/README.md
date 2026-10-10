@@ -12,7 +12,7 @@ or chained together.
 |---|---|---|
 | [API Automation Agent](./api-automation-agent.md) | Reconstructs API contracts from code (no Swagger needed) and generates a runnable BDD or TDD automation framework with environment switching, reporting, and Azure DevOps publishing | Available |
 | [UI Automation Agent](./ui-automation-agent.md) | Generates UI automation from business flows and user stories; updates existing tests first and creates new ones only when none exist; BDD or TDD with an object repository, Playwright or Selenium, environment switching, and check-in-based test selection | Available |
-| Database Testing Agent | Generates data validation and database test cases from the data dependency map | Coming soon |
+| [Database Testing Agent](./database-testing-agent.md) | Generates database tests across Oracle, PostgreSQL, Azure SQL, Snowflake, Cosmos DB, and MarkLogic; handles multiple authentication methods, validates schema, data types, and sizes, and verifies that UI/API inputs land correctly in the database | Available |
 | Manual Test Case Agent | Generates manual test cases from the business requirement document and flows | Coming soon |
 
 ## Shared conventions
